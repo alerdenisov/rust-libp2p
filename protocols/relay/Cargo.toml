@@ -13,7 +13,7 @@ categories = ["network-programming", "asynchronous"]
 bytes = "0.4"
 fnv = "1.0"
 futures = "0.1"
-libp2p-core = { version = "0.9.0", path = "../../core" }
+libp2p-core = { version = "0.20.1", path = "../../core" }
 log = "0.4"
 protobuf = "2.0.2"
 rand = "0.6"
