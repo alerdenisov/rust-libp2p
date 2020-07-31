@@ -216,6 +216,10 @@ pub use libp2p_plaintext as plaintext;
 #[cfg_attr(docsrs, doc(cfg(feature = "secio")))]
 #[doc(inline)]
 pub use libp2p_secio as secio;
+#[cfg(feature = "relay")]
+#[cfg_attr(docsrs, doc(cfg(feature = "relay")))]
+#[doc(inline)]
+pub use libp2p_relay as relay;
 #[doc(inline)]
 pub use libp2p_swarm as swarm;
 #[cfg(any(feature = "tcp-async-std", feature = "tcp-tokio"))]
